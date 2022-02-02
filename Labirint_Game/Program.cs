@@ -56,8 +56,8 @@ class Wall : MapSite
 
 class Door : MapSite
 {
-    Room room1 = null;
-    Room room2 = null;
+    Room? room1 = null;
+    Room? room2 = null;
     bool isOpen;
     public Door(Room room1, Room room2)
     {
